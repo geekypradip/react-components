@@ -16,9 +16,7 @@ const Home = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link onClick={() => navigate("/pricing")}>pricing</Nav.Link>
-              <Nav.Link onClick={() => navigate("/products")}>
-                products
-              </Nav.Link>
+              <Nav.Link onClick={() => navigate("/users")}>Users</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

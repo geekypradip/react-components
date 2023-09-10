@@ -9,7 +9,7 @@ For this project, I used the following technologies:
 - **React.js/TypeScript**: The core framework for building the frontend of the application.
 - **Bootstrap**: We use Bootstrap for styling and layout.
 - **React Router DOM v6**: This library is used for handling routing within the application.
-- **Product API**: To fetch product data, we utilize the following API: [https://api.escuelajs.co/api/v1/products](https://api.escuelajs.co/api/v1/products)
+- **Users API**: To fetch users data, we utilize the following API: [https://www.slingacademy.com/article/sample-users-free-fake-api-for-practicing-prototyping/#Get_a_List_of_Users](https://www.slingacademy.com/article/sample-users-free-fake-api-for-practicing-prototyping/#Get_a_List_of_Users)
 
 ## Features
 

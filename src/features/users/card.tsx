@@ -2,17 +2,16 @@ import { FC } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-export const ProductCard: FC<any> = (props) => {
+export const UserCard: FC<any> = (props) => {
   return (
     <Card style={{ width: "18rem" }}>
-      <Card.Img
-        variant="top"
-        src={props?.images?.at(0)}
-        style={{ height: "50%" }}
-      />
+      <Card.Img variant="top" src={props?.profile_picture} />
       <Card.Body>
-        <Card.Title>{props?.title}</Card.Title>
-        <Card.Text>{props?.description}</Card.Text>
+        <Card.Title>
+          {props?.first_name} {props?.last_name}
+        </Card.Title>
+        <Card.Text>{props?.phone}</Card.Text>
+
         <Button variant="primary">Know more</Button>
       </Card.Body>
     </Card>

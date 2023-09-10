@@ -12,7 +12,7 @@ const SuspenseLoader = (Component: any) => (props: any) =>
 // Pages
 const Home = SuspenseLoader(lazy(() => import("./pages/home.page")));
 const Pricing = SuspenseLoader(lazy(() => import("./pages/pricing.page")));
-const Products = SuspenseLoader(lazy(() => import("./pages/products.page")));
+const Users = SuspenseLoader(lazy(() => import("./pages/users.page")));
 const routes: RouteObject[] = [
   {
     path: "/",
@@ -28,8 +28,8 @@ const routes: RouteObject[] = [
         element: <Pricing />,
       },
       {
-        path: "products",
-        element: <Products />,
+        path: "users",
+        element: <Users />,
       },
     ],
   },
