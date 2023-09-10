@@ -17,6 +17,17 @@ To successfully complete this 1st screening, I implement all the features outlin
 
 Please refer to the provided document for detailed information about each feature, including design specifications, functionality requirements, and any additional guidance.
 
+
+
+## Screenshots
+
+Here are some vital screenshots of the application:
+
+![Screenshot 1](https://gitlab.com/pradip1910736/NextGrowth/-/raw/main/public/images/Screenshot%202023-09-10%20at%205.24.09%20PM.png?ref_type=heads)
+
+![Screenshot 2](https://gitlab.com/pradip1910736/NextGrowth/-/raw/main/public/images/Screenshot%202023-09-10%20at%205.26.00%20PM.png?ref_type=heads)
+
+
 ## Getting Started
 
 Before you begin, make sure you have the necessary development tools and environment set up:
